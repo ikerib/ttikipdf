@@ -86,5 +86,9 @@ assetic:
             node_paths: [/usr/lib/node_modules]
             apply_to: '\.less$'
         cssrewrite: ~
+
 braincrafted_bootstrap:
     css_preprocessor: less
+
+vich_uploader:
+    db_driver: orm # or mongodb or propel or phpcr
